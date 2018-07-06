@@ -12,7 +12,7 @@ mongoose.Promise = global.Promise;
 const { PORT, DATABASE_URL } = require('./config');
 const { Restaurant } = require('./models');
 
-const app = express();
+const app = express(); 
 app.use(express.json());
 
 // GET requests to /restaurants => return 10 restaurants
